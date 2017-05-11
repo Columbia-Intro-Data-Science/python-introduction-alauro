@@ -4,7 +4,6 @@ from werkzeug import secure_filename
 from PIL import Image
 from CNN_model import resize_image, crop_center, image_size, image_to_grayscale_pixel_values, standardize_pixels, CNN
 
-#UPLOAD_FOLDER = '/Users/Alex/Documents/CNN/uploads/'
 UPLOAD_FOLDER = '/home/expressionrecog/mysite3/uploads/'
 
 ALLOWED_EXTENSIONS = set(['txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'])
